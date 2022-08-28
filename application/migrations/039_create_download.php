@@ -49,8 +49,8 @@ class Migration_create_download extends CI_Migration
         $this->dbforge->create_table('download');
 
         $data = array(
-            array('fileName' => 'WoW 1.12.1', 'type' => 'Zip', 'weight' => '5.5 GB ~', 'category' => '1', 'image' => 'wow-vanilla.png', 'url' => 'https://drive.google.com/file/d/1TDoNNUXCtsgIUhLw96biPCqjv3AcLYkg/view'),
-            array('fileName' => 'Github Addon List', 'type' => 'Zip', 'weight' => 'N/A', 'category' => '2', 'image' => '../game-icons/chest.png', 'url' => 'https://forum.twinstar.cz/threads/github-list-of-vanilla-addons-1-12-1.123906/')
+            array('fileName' => '客户端下载', 'type' => 'Zip', 'weight' => '5.5 GB ~', 'category' => '1', 'image' => 'wow-vanilla.png', 'url' => 'http://www.nfuwow.com/Simple/detail/artid/75.h'),
+            array('fileName' => '下载插件', 'type' => 'Zip', 'weight' => 'N/A', 'category' => '2', 'image' => '../game-icons/chest.png', 'url' => 'http://www.nfuwow.com/plugin/lists/catid/1.html')
         );
         $this->db->insert_batch('download', $data);
     }
