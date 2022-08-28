@@ -12,12 +12,12 @@
                         <div class="uk-margin">
                             <div class="uk-form-controls uk-light">
                                 <div class="uk-inline uk-width-1-1">
-                                    <h2 class="uk-text-center">Armory Search</h2>
+                                    <h2 class="uk-text-center">搜索玩家英雄榜</h2>
                                     <table class="uk-table uk-table-small uk-table-responsive">
                                         <tr>
                                             <td><input class="uk-input" style="display:inline;" id="search"
                                                        name="search" type="text" minlength="2"
-                                                       placeholder="Search by Player Name or Guild Name" required></td>
+                                                       placeholder="按照玩家名字或者工会搜索" required></td>
                                             <td><select class="uk-inline uk-input minimal" style="display:inline;"
                                                         id="realm"
                                                         name="realm">

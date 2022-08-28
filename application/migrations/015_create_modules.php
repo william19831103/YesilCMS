@@ -31,7 +31,7 @@ class Migration_create_modules extends CI_Migration
         $this->dbforge->add_key('id', true);
         $this->dbforge->create_table('modules');
         $data = array(
-            array('name' => 'Discord', 'status' => '1'),
+            array('name' => 'Discord', 'status' => '0'),
             array('name' => 'reCaptcha', 'status' => '0'), //must be disabled initially
             array('name' => 'Slideshow', 'status' => '1'),
             array('name' => 'Realm Status', 'status' => '1'),
@@ -45,7 +45,7 @@ class Migration_create_modules extends CI_Migration
             array('name' => 'Store', 'status' => '1'),
             array('name' => 'Donation', 'status' => '1'),
             array('name' => 'Vote', 'status' => '1'),
-            array('name' => 'PvP', 'status' => '1'),
+            array('name' => 'PvP', 'status' => '0'),
             array('name' => 'Bugtracker', 'status' => '1'),
             array('name' => 'Changelogs', 'status' => '1'),
             array('name' => 'Download', 'status' => '1'),

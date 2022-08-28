@@ -3,84 +3,85 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 /*Browser Tab Menu*/
-$lang['tab_news']           = 'News';
-$lang['tab_forum']          = 'Forum';
-$lang['tab_store']          = 'Store';
-$lang['tab_bugtracker']     = 'Bugtracker';
-$lang['tab_changelogs']     = 'Changelogs';
+$lang['tab_news']           = '公告';
+$lang['tab_forum']          = '论坛';
+$lang['tab_store']          = '商场';
+$lang['tab_bugtracker']     = '提交bug';
+$lang['tab_changelogs']     = '更新内容';
 $lang['tab_pvp_statistics'] = 'PvP Statistics';
-$lang['tab_login']          = 'Login';
-$lang['tab_register']       = 'Register';
-$lang['tab_home']           = 'Home';
-$lang['tab_donate']         = 'Donate';
-$lang['tab_vote']           = 'Vote';
-$lang['tab_cart']           = 'Cart';
-$lang['tab_account']        = 'My Account';
-$lang['tab_reset']          = 'Password Recovery';
+$lang['tab_login']          = '登录';
+$lang['tab_register']       = '注册';
+$lang['tab_home']           = '首页';
+$lang['tab_home']           = '首页';
+$lang['tab_donate']         = '赞助';
+$lang['tab_vote']           = '投票';
+$lang['tab_cart']           = '购物车';
+$lang['tab_account']        = '我的账号';
+$lang['tab_reset']          = '恢复密码';
 $lang['tab_pending']        = 'Account Activation';
 $lang['tab_error']          = 'Error 404';
-$lang['tab_maintenance']    = 'Maintenance';
-$lang['tab_online']         = 'Online Players';
-$lang['tab_download']       = 'Download';
+$lang['tab_maintenance']    = '维护';
+$lang['tab_online']         = '在线玩家';
+$lang['tab_download']       = '下载';
 
 /*Panel Navbar*/
-$lang['navbar_vote_panel']   = 'Vote Panel';
-$lang['navbar_donate_panel'] = 'Donate Panel';
+$lang['navbar_vote_panel']   = '投票面板';
+$lang['navbar_donate_panel'] = '赞助面板';
 
 /*Button Lang*/
-$lang['button_register']          = 'Register';
-$lang['button_login']             = 'Log In';
-$lang['button_logout']            = 'Log Out';
+$lang['button_register']          = '注册';
+$lang['button_login']             = '登录';
+$lang['button_logout']            = '注销';
 $lang['button_activate']          = 'Activate';
 $lang['button_request']           = 'Request New Code';
-$lang['button_forgot_password']   = 'Forgot your password?';
-$lang['button_user_panel']        = 'User Panel';
-$lang['button_admin_panel']       = 'Admin Panel';
-$lang['button_mod_panel']         = 'Mod Panel';
+$lang['button_forgot_password']   = '密码忘记了?';
+$lang['button_user_panel']        = '玩家控制面板';
+$lang['button_admin_panel']       = '管理员控制面板';
+$lang['button_mod_panel']         = '模块面板';
 $lang['button_change_avatar']     = 'Change Avatar';
 $lang['button_add_personal_info'] = 'Add Personal Information';
 $lang['button_create_report']     = 'Create Report';
-$lang['button_new_topic']         = 'New Topic';
-$lang['button_edit_topic']        = 'Edit Topic';
-$lang['button_save_changes']      = 'Save Changes';
-$lang['button_cancel']            = 'Cancel';
-$lang['button_send']              = 'Send';
+$lang['button_new_topic']         = '发布新帖子';
+$lang['button_edit_topic']        = '编辑帖子';
+$lang['button_save_changes']      = '保存帖子';
+$lang['button_cancel']            = '取消';
+$lang['button_send']              = '发送';
 $lang['button_read_more']         = 'Read More';
-$lang['button_add_reply']         = 'Add Reply';
-$lang['button_remove']            = 'Remove';
-$lang['button_create']            = 'Create';
-$lang['button_save']              = 'Save';
-$lang['button_close']             = 'Close';
-$lang['button_reply']             = 'Reply';
-$lang['button_donate']            = 'Donate';
-$lang['button_account_settings']  = 'Account Settings';
-$lang['button_cart']              = 'Add to Cart';
-$lang['button_view_cart']         = 'View Cart';
-$lang['button_checkout']          = 'Checkout';
-$lang['button_buying']            = 'Continue Buying';
+$lang['button_add_reply']         = '回复';
+$lang['button_remove']            = '移除';
+$lang['button_create']            = '新建';
+$lang['button_save']              = '保存';
+$lang['button_close']             = '关闭';
+$lang['button_reply']             = '回复';
+$lang['button_donate']            = '赞助';
+$lang['button_account_settings']  = '账号管理';
+$lang['button_cart']              = '添加到购物车';
+$lang['button_view_cart']         = '查看购物车';
+$lang['button_checkout']          = '结算';
+$lang['button_buying']            = '继续购物';
 
 /*Alert Lang*/
-$lang['alert_successful_purchase'] = 'Item purchased successfully.';
+$lang['alert_successful_purchase'] = '商品购买成功.';
 $lang['alert_upload_error']        = 'Your image must be in jpg or png format';
 $lang['alert_changelog_not_found'] = 'The server does not have changelogs to inform at this time';
-$lang['alert_points_insufficient'] = 'Insufficient points';
+$lang['alert_points_insufficient'] = '点数不足';
 
 /*Status Lang*/
-$lang['offline'] = 'Offline';
-$lang['online']  = 'Online';
+$lang['offline'] = '离线';
+$lang['online']  = '在线';
 
 /*Label Lang*/
-$lang['label_open']   = 'Open';
-$lang['label_closed'] = 'Closed';
+$lang['label_open']   = '打开';
+$lang['label_closed'] = '关闭';
 
 /*Form Label Lang*/
 $lang['label_login_info'] = 'Login Information';
 
 /*Input Placeholder Lang*/
-$lang['placeholder_username']          = 'Username';
-$lang['placeholder_email']             = 'Email Address';
-$lang['placeholder_password']          = 'Password';
-$lang['placeholder_re_password']       = 'Repeat Password';
+$lang['placeholder_username']          = '用户名';
+$lang['placeholder_email']             = '邮箱地址 xxx@xxx.com';
+$lang['placeholder_password']          = '密码（至少6位）';
+$lang['placeholder_re_password']       = '重复密码（至少6位）';
 $lang['placeholder_current_password']  = 'Current Password';
 $lang['placeholder_new_password']      = 'New Password';
 $lang['placeholder_new_username']      = 'New Username';
@@ -99,7 +100,7 @@ $lang['placeholder_subject']           = 'Subject';
 
 /*Table header Lang*/
 $lang['table_header_name']             = 'Name';
-$lang['table_header_faction']          = 'Faction';
+$lang['table_header_faction']          = '阵营';
 $lang['table_header_total_kills']      = 'Total Kills';
 $lang['table_header_total_honor']      = 'Total Honor';
 $lang['table_header_current_rank']     = 'Current Rank';
@@ -125,26 +126,26 @@ $lang['table_header_items']            = 'Item(s)';
 $lang['table_header_quantity']         = 'Quantity';
 
 /*Class Lang*/
-$lang['class_warrior']     = 'Warrior';
-$lang['class_paladin']     = 'Paladin';
-$lang['class_hunter']      = 'Hunter';
-$lang['class_rogue']       = 'Rogue';
-$lang['class_priest']      = 'Priest';
+$lang['class_warrior']     = '战士';
+$lang['class_paladin']     = '骑士';
+$lang['class_hunter']      = '猎人';
+$lang['class_rogue']       = '盗贼';
+$lang['class_priest']      = '牧师';
 $lang['class_dk']          = 'Death Knight';
-$lang['class_shaman']      = 'Shaman';
-$lang['class_mage']        = 'Mage';
-$lang['class_warlock']     = 'Warlock';
+$lang['class_shaman']      = '萨满';
+$lang['class_mage']        = '法师';
+$lang['class_warlock']     = '术士';
 $lang['class_monk']        = 'Monk';
-$lang['class_druid']       = 'Druid';
+$lang['class_druid']       = '德鲁伊';
 $lang['class_demonhunter'] = 'Demon Hunter';
 
 /*Faction Lang*/
-$lang['faction_alliance'] = 'Alliance';
-$lang['faction_horde']    = 'Horde';
+$lang['faction_alliance'] = '联盟';
+$lang['faction_horde']    = '部落';
 
 /*Gender Lang*/
-$lang['gender_male']   = 'Male';
-$lang['gender_female'] = 'Female';
+$lang['gender_male']   = '男性';
+$lang['gender_female'] = '女性';
 
 /*Race Lang*/
 $lang['race_human']               = 'Human';
@@ -182,13 +183,13 @@ $lang['page_404_description'] = 'It looks like the page you are looking could no
 
 /*Panel Lang*/
 $lang['panel_acc_rank']           = 'Account Rank';
-$lang['panel_dp']                 = 'Donor Points';
-$lang['panel_vp']                 = 'Vote Points';
+$lang['panel_dp']                 = '捐献点数';
+$lang['panel_vp']                 = '投票点数';
 $lang['panel_expansion']          = 'Expansion';
 $lang['panel_member']             = 'Member since';
-$lang['panel_chars_list']         = 'Characters List';
-$lang['panel_account_details']    = 'Account Details';
-$lang['panel_last_ip']            = 'Last IP';
+$lang['panel_chars_list']         = '你的角色列表';
+$lang['panel_account_details']    = '账号信息';
+$lang['panel_last_ip']            = '上次登录IP';
 $lang['panel_request_ip']         = 'Requested IP';
 $lang['panel_change_email']       = 'Change Email Address';
 $lang['panel_change_username']    = 'Change Username';
@@ -200,11 +201,11 @@ $lang['panel_replace_email_by']   = 'Replace Email by';
 $lang['panel_server_checkstatus'] = 'Server is offline. Purchases are not available.';
 
 /*Home Lang*/
-$lang['home_latest_news']   = 'Latest News';
-$lang['home_discord']       = 'Discord';
-$lang['home_server_status'] = 'Server Status';
-$lang['home_set_realmlist'] = 'Download Realmlist';
-$lang['home_realm_info']    = 'Currently the realm is';
+$lang['home_latest_news']   = '最新公告';
+$lang['home_discord']       = '讨论discord';
+$lang['home_server_status'] = '服务器状态';
+$lang['home_set_realmlist'] = '下载登录器';
+$lang['home_realm_info']    = '当前服务器为';
 
 /*PvP Statistics Lang*/
 $lang['statistics_top_20']  = 'TOP 20';
@@ -226,7 +227,7 @@ $lang['donate_get'] = 'Get';
 $lang['vote_next_time'] = 'Next vote in:';
 
 /*Forum Lang*/
-$lang['forum_posts_count']        = 'Posts';
+$lang['forum_posts_count']        = '帖子';
 $lang['forum_topic_locked']       = 'This topic is locked.';
 $lang['forum_comment_locked']     = 'Have something to say? Log in to join the conversation.';
 $lang['forum_comment_locked_act'] = 'Have something to say? Please activate your account first.';
@@ -242,11 +243,11 @@ $lang['forum_topics_count']       = 'Topics';
 $lang['forum_users_count']        = 'Users';
 
 /*Store Lang*/
-$lang['store_categories']    = 'Store Categories';
-$lang['store_top_items']     = 'TOP Items';
-$lang['store_cart_added']    = 'You have added';
-$lang['store_cart_in_your']  = 'in your shopping cart';
-$lang['store_cart_no_items'] = 'You do not have items in your cart.';
+$lang['store_categories']    = '商场目录';
+$lang['store_top_items']     = '畅销物品';
+$lang['store_cart_added']    = '你增加了';
+$lang['store_cart_in_your']  = '在你的购物车';
+$lang['store_cart_no_items'] = '购物车无物品.';
 
 /*Soap Lang*/
 $lang['soap_send_subject'] = 'Store Purchase';

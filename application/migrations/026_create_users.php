@@ -24,6 +24,7 @@ class Migration_create_users extends CI_Migration
             'email'    => array(
                 'type'       => 'VARCHAR',
                 'constraint' => '100',
+                'default'    => 'xxx@xxx.com'
             ),
             'joindate' => array(
                 'type'       => 'INT',

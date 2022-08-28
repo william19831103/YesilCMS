@@ -51,9 +51,9 @@ class Migration_create_forum extends CI_Migration
         $this->dbforge->create_table('forum');
 
         $data = array(
-            array('name' => 'Announcements', 'category' => '1', 'description' => 'Anything related about the server', 'icon' => 'forums/forum_005.png', 'type' => '3'),
-            array('name' => 'Help & Support', 'category' => '1', 'description' => 'You can get all the support related to your account here.', 'icon' => 'forums/forum_016.png', 'type' => '1'),
-            array('name' => 'General', 'category' => '2', 'description' => 'General section about anything related with game', 'icon' => 'forums/forum_010.png', 'type' => '3')
+            array('name' => '公告', 'category' => '1', 'description' => '官方公告', 'icon' => 'forums/forum_005.png', 'type' => '3'),
+            array('name' => '寻求帮助', 'category' => '1', 'description' => '有啥需要帮助的在这里留言把.', 'icon' => 'forums/forum_016.png', 'type' => '1'),
+            array('name' => '大厅', 'category' => '2', 'description' => '游戏相关内容发布到这里', 'icon' => 'forums/forum_010.png', 'type' => '3')
         );
         $this->db->insert_batch('forum', $data);
     }

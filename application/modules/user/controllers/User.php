@@ -150,7 +150,7 @@ class User extends MX_Controller
                 [
                     'field'  => 'password',
                     'label'  => 'Password',
-                    'rules'  => 'trim|required|alpha_numeric|min_length[8]',
+                    'rules'  => 'trim|required|alpha_numeric|min_length[6]',
                     'errors' => [
                         'required'      => 'You must provide a %s.',
                         'alpha_numeric' => 'The %s must be at least 8 alphanumeric characters long.',
@@ -160,7 +160,7 @@ class User extends MX_Controller
                 [
                     'field'  => 'confirm_password',
                     'label'  => 'Confirm password',
-                    'rules'  => 'trim|required|min_length[8]|matches[password]',
+                    'rules'  => 'trim|required|min_length[6]|matches[password]',
                     'errors' => [
                         'required' => 'You must provide a %s.'
                     ]

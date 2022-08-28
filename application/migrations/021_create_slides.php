@@ -42,12 +42,12 @@ class Migration_create_slides extends CI_Migration
 
         $data = array(
             array(
-                'title'       => 'YesilCMS - Welcome to your website.',
-                'description' => 'This is a reworked version of BlizzCMS that adds compability to vMaNGOS <br> and new features such as Armory, Account Activation, Password Recovery, API infrastructure and more.',
+                'title'       => '暗黑魔兽 - 欢迎来到暗黑魔兽.',
+                'description' => '2022超魔幻RPG之作，无可挑剔的简单操作，无与伦比的爽快打击感，无处不在的惊喜！气势磅礴的游戏背景，让您在游戏中找到身临其境的感觉，带给您显示与魔兽世界中的强力视觉冲击感。.',
                 'type'        => '1',
                 'route'       => 's-1.jpg'
             ),
-            array('title' => 'YesilCMS - Slide Page 2', 'description' => 'Showcase for multi-page slideshow.', 'type' => '1', 'route' => 's-2.jpg'),
+            array('title' => '暗黑魔兽 - 2', 'description' => '百种装备等您打造，千余任务等您接手。遍布世界地图中的给类BOSS，等您组队挑战！重温魔兽激情！', 'type' => '1', 'route' => 's-2.jpg'),
         );
         $this->db->insert_batch('slides', $data);
     }
