@@ -55,13 +55,14 @@ class Migration_create_menu extends CI_Migration
             array('name' => '论坛', 'url' => 'forum', 'icon' => 'fas fa-comments', 'main' => '1', 'child' => '0', 'type' => '1'),
             array('name' => '在线玩家', 'url' => 'online', 'icon' => 'fas fa-user', 'main' => '1', 'child' => '0', 'type' => '1'),
             array('name' => '玩家英雄榜', 'url' => 'armory', 'icon' => 'fas fa-users', 'main' => '1', 'child' => '0', 'type' => '1'),
+            array('name' => '数据库', 'url' => 'database', 'icon' => 'fas fa-database', 'main' => '1', 'child' => '0', 'type' => '1'),
             array('name' => '账号管理', 'url' => '#', 'icon' => 'fas fa-house-user', 'main' => '2', 'child' => '0', 'type' => '1'),
-            array('name' => '捐助', 'url' => 'donate', 'icon' => 'fas fa-hand-holding-dollar', 'main' => '1', 'child' => '5', 'type' => '1'),
-            array('name' => '投票', 'url' => 'vote', 'icon' => 'fas fa-check-to-slot', 'main' => '1', 'child' => '5', 'type' => '1'),
-            array('name' => '在线商城', 'url' => 'store', 'icon' => 'fas fa-store', 'main' => '1', 'child' => '5', 'type' => '1'),
-            array('name' => '提交BUG', 'url' => 'bugtracker', 'icon' => 'fas fa-bug', 'main' => '1', 'child' => '5', 'type' => '1'),
-            array('name' => '更新补丁内容', 'url' => 'changelogs', 'icon' => 'fas fa-scroll', 'main' => '1', 'child' => '5', 'type' => '1'),
-            array('name' => '在线', 'url' => 'download', 'icon' => 'fas fa-download', 'main' => '1', 'child' => '5', 'type' => '1'),
+            array('name' => '捐助', 'url' => 'donate', 'icon' => 'fas fa-hand-holding-dollar', 'main' => '1', 'child' => '6', 'type' => '1'),
+            array('name' => '投票', 'url' => 'vote', 'icon' => 'fas fa-check-to-slot', 'main' => '1', 'child' => '6', 'type' => '1'),
+            array('name' => '在线商城', 'url' => 'store', 'icon' => 'fas fa-store', 'main' => '1', 'child' => '6', 'type' => '1'),
+            array('name' => '提交BUG', 'url' => 'bugtracker', 'icon' => 'fas fa-bug', 'main' => '1', 'child' => '6', 'type' => '1'),
+            array('name' => '更新公告', 'url' => 'changelogs', 'icon' => 'fas fa-scroll', 'main' => '1', 'child' => '6', 'type' => '1'),
+            array('name' => '更新补丁内容', 'url' => 'download', 'icon' => 'fas fa-download', 'main' => '1', 'child' => '6', 'type' => '1'),
             array('name' => '使用协议', 'url' => 'page/terms-of-use', 'icon' => 'fas fa-book-open', 'main' => '1', 'child' => '0', 'type' => '1')
         );
         $this->db->insert_batch('menu', $data);
