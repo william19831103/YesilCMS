@@ -1,5 +1,3 @@
-header("Content-Type: text/html; charset=UTF-8");
-
 <?php
 
 defined('BASEPATH') or exit('No direct script access allowed');
