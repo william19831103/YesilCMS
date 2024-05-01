@@ -99,7 +99,7 @@ $lang['placeholder_lock']              = 'Lock';
 $lang['placeholder_subject']           = 'Subject';
 
 /*Table header Lang*/
-$lang['table_header_name']             = 'Name';
+$lang['table_header_name']             = '姓名';
 $lang['table_header_cname']            = 'Character Name';
 $lang['table_header_gname']            = 'Guild Name';
 $lang['table_header_faction']          = 'Faction';
@@ -253,8 +253,8 @@ $lang['store_cart_in_your']  = '在你的购物车';
 $lang['store_cart_no_items'] = '购物车无物品.';
 
 /*Soap Lang*/
-$lang['soap_send_subject'] = 'Store Purchase';
-$lang['soap_send_body']    = 'Thank you for buying in our store!';
+$lang['soap_send_subject'] = '商城购物';
+$lang['soap_send_body']    = '感谢您的赞助!';
 
 /*Email Lang*/
 $lang['email_password_recovery_p1'] = 'Password Recovery Confirmation';

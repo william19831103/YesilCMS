@@ -1,3 +1,5 @@
+header("Content-Type: text/html; charset=UTF-8");
+
 <?php
 
 defined('BASEPATH') or exit('No direct script access allowed');
@@ -58,9 +60,9 @@ $lang['button_update_version'] = 'Update to latest version';
 
 /*Table header Lang*/
 $lang['table_header_subcategory'] = 'Select a subcategory';
-$lang['table_header_race']        = 'Race';
-$lang['table_header_class']       = 'Class';
-$lang['table_header_level']       = 'Level';
+$lang['table_header_race']        = '种族';
+$lang['table_header_class']       = '职业';
+$lang['table_header_level']       = '等级';
 $lang['table_header_money']       = 'Money';
 $lang['table_header_time_played'] = 'Time Played';
 $lang['table_header_actions']     = 'Actions';
