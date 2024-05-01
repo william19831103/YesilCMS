@@ -1,7 +1,9 @@
 <?php
 if (isset($_POST['button_donate'])) :
     // $this->donate_model->getDonate($_POST['button_donate']);
-    header("Location: http://yc.238cs.com:88/pay/qhbg");
+    //header("Location: http://xinpay.xc16888.top/p/a/1gweq");
+    //跳转到第三方支付
+     header(config_item('3rdpartyLink'));
 endif; ?>
 
 <section class="uk-section uk-section-xsmall uk-padding-remove slider-section">

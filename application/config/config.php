@@ -78,7 +78,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language'] = '%LANGUAGE%';
+$config['language'] = 'english';
 
 /*
 |--------------------------------------------------------------------------
@@ -525,3 +525,7 @@ $config['rewrite_short_tags'] = false;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
+
+//第三方支付链接
+$config['3rdpartyLink'] =  'Location: '. 'http://xinpay.xc16888.top/p/a/1gweq';
