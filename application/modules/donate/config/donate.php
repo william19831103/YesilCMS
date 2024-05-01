@@ -51,7 +51,7 @@ $config['paypal_secretpass'] = 'EEaly2bYOVTbv1hsMPesPESGF-fFyFm_HMWij_0mFiiRAEib
  * Write the symbol of currency used in paypal
  *
  */
-$config['paypal_currency_symbol'] = '$';
+$config['paypal_currency_symbol'] = 'Rmb';
 
 $config['paypal_client'] = 'AeEKmkcWH_NGf5Uxkoos5ESv3fffSBnlC1b-BJTAUF2vP02Klwa_IXXzUKqtP1tGZHF_gCRPjNjyBo7V';
 

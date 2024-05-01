@@ -53,7 +53,7 @@ $lang['button_create']            = '新建';
 $lang['button_save']              = '保存';
 $lang['button_close']             = '关闭';
 $lang['button_reply']             = '回复';
-$lang['button_donate']            = '赞助';
+$lang['button_donate']            = '点此赞助';
 $lang['button_account_settings']  = '账号管理';
 $lang['button_cart']              = '添加到购物车';
 $lang['button_view_cart']         = '查看购物车';
@@ -224,7 +224,7 @@ $lang['news_comments']    = 'Comments';
 $lang['bugtracker_report_notfound'] = 'Reports not found';
 
 /*Donate Lang*/
-$lang['donate_get'] = 'Get';
+$lang['donate_get'] = '获取';
 
 /*Vote Lang*/
 $lang['vote_next_time'] = 'Next vote in:';
