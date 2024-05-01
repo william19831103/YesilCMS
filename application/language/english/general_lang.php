@@ -186,7 +186,7 @@ $lang['page_404_description'] = 'It looks like the page you are looking could no
 
 /*Panel Lang*/
 $lang['panel_acc_rank']           = 'Account Rank';
-$lang['panel_dp']                 = '捐献点数';
+$lang['panel_dp']                 = '赞助点数';
 $lang['panel_vp']                 = '投票点数';
 $lang['panel_expansion']          = 'Expansion';
 $lang['panel_member']             = 'Member since';
