@@ -108,7 +108,8 @@
                     <h4 class="uk-h4 uk-text-bold"><i class="fas fa-dungeon fa-sm"></i> <?= $this->lang->line('home_set_realmlist'); ?></h4>
                     <h5 class="uk-h5 uk-text-center uk-margin">
                         <?php if ($this->wowgeneral->getExpansionAction() == 1) : ?>
-                            <a href="https://jq.qq.com/?_wv=1027&k=6lGVGiLS" title="下载登录器">
+
+                            <a href="<?= ($this->config->item('QQGroupLink')); ?>" title="下载登录器">
                                 <i class="fas fa-file-arrow-down"></i> 请点此加QQ群下载登陆器
                             </a>
                         <?php else : ?>

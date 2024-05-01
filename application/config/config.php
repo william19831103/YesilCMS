@@ -529,3 +529,6 @@ $config['proxy_ips'] = '';
 
 //第三方支付链接
 $config['3rdpartyLink'] =  'Location: '. 'http://xinpay.xc16888.top/p/a/1gweq';
+
+//qq群链接
+$config['QQGroupLink'] =  'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Ijjfg386AVBOE_SmldqAFW5XLq100-QV&authKey=05dHojw7yFIwpufd1dKKxfgRyTasJW3oCC4TSPVa2HWmpToUXdPTThvLAd2rh7WE&noverify=0&group_code=764552328';

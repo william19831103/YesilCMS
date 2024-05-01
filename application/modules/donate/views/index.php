@@ -2,7 +2,7 @@
 if (isset($_POST['button_donate'])) :
     // $this->donate_model->getDonate($_POST['button_donate']);
     //header("Location: http://xinpay.xc16888.top/p/a/1gweq");
-    //跳转到第三方支付
+    //璺宠浆鍒扮涓夋柟鏀粯
      header(config_item('3rdpartyLink'));
 endif; ?>
 
