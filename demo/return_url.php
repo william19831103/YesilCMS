@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once("lib/epay.config.php");
 require_once("lib/EpayCore.class.php");
 ?>
@@ -31,6 +32,48 @@ function connect_db() {
 //计算得出通知验证结果
 $epay = new EpayCore($epay_config);
 $verify_result = $epay->verifyReturn();
+
+
+// 3分钟内不超过10次请求，否则封禁1小时
+if (isset($_SESSION["reg_count"])) {
+    $_SESSION["reg_count"]++;
+} else {
+    $_SESSION["reg_count"] = 1;
+    $_SESSION["reg_time"] = time();
+}
+
+$reg_minutes = 180; // 3 minutes
+$reg_ban_hours = 60*60 ; // 1 hour
+
+
+// 如果已被封禁
+if (isset($_SESSION["reg_banned"]) && $_SESSION["reg_banned"] === true) {
+    // 检查是否已解禁
+    if (time() - $_SESSION["reg_ban_time"] >= 0) {
+        // 解禁
+        unset($_SESSION["reg_ban_time"]);
+        unset($_SESSION["reg_banned"]);
+        $_SESSION["reg_count"] = 1;
+    } else {
+        // 仍在封禁期内，直接返回
+        echo "您已被封禁1小时,请稍后再试。";
+        return;
+    }
+}
+
+// 检查请求次数是否超过10次
+if ($_SESSION["reg_count"] > 10) {
+    // 检查是否超过3分钟
+    if (time() - $_SESSION["reg_time"] > $reg_minutes) {
+        // 封禁1小时
+        $_SESSION["reg_ban_time"] = time() + $reg_ban_hours;
+        $_SESSION["reg_banned"] = true;
+        $_SESSION["reg_count"] = 1;
+        echo "您已被封禁1小时,请稍后再试。";
+        return;
+    }
+}
+
 
 if($verify_result) {//验证成功
 
