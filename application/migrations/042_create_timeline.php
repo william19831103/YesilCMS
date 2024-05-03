@@ -19,7 +19,7 @@ class Migration_create_timeline extends CI_Migration
                 'auto_increment' => true
             ),
             'description' => array(
-                'type'    => 'JSON',
+                'type'    => 'LONGTEXT',
                 'null'    => false,
                 'comment' => 'JSON for MySQL, LONGTEXT for MariaDB'
             ),
