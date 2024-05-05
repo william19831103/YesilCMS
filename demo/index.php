@@ -166,7 +166,7 @@ ul,ol{
                     <dt><span style="color:red;">游戏账号：</span></dt>
                     <dd>
                         <span class="null-star">*</span>
-                        <input size="30" name="WIDsubject" value=""/>
+                        <input size="30" name="WIDsubject" value=""/ placeholder="输入您的游戏账号">
                         <span><span style="color:red;">注意:请输入游戏登录账号,必填</span>
 </span>
                     </dd>
