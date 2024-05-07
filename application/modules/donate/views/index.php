@@ -3,7 +3,16 @@ if (isset($_POST['button_donate'])) :
     // $this->donate_model->getDonate($_POST['button_donate']);
     //header("Location: http://xinpay.xc16888.top/p/a/1gweq");
     //跳转到第三方支付
-     header(config_item('3rdpartyLink'));
+    //header(config_item('3rdpartyLink'));
+    //redirect(base_url('timeline'));
+
+    //跳转到根目录/demo/index.phhp
+
+    //redirect(base_url('demo/index.php'));
+    //获取用户名
+    $username = $this->wowauth->getSiteUsernameID($this->session->userdata('wow_sess_id'));
+    redirect(base_url('demo/index.php?username=' . $username));
+
 endif; ?>
 
 <section class="uk-section uk-section-xsmall uk-padding-remove slider-section">

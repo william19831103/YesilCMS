@@ -2,7 +2,8 @@
 /* *
  * 以下代码只是为了方便商户测试而提供的样例代码，商户可以根据自己网站的需要，按照技术文档编写,并非一定要使用该代码。
  */
-
+// 获取 URL 参数 username
+$username = $_GET['username'];
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
@@ -166,7 +167,8 @@ ul,ol{
                     <dt><span style="color:red;">游戏账号：</span></dt>
                     <dd>
                         <span class="null-star">*</span>
-                        <input size="30" name="WIDsubject" value=""/ placeholder="输入您的游戏账号">
+                        <!-- <input size="30" name="WIDsubject" value=""/ placeholder="输入您的游戏账号" required="required" autofocus="autofoucs"> -->
+                        <input size="30" name="WIDsubject" value="<?php echo $username; ?>" placeholder="输入您的游戏账号" required="required" autofocus="autofocus">
                         <span><span style="color:red;">注意:请输入游戏登录账号,必填</span>
 </span>
                     </dd>
