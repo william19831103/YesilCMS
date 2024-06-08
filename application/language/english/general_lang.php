@@ -100,9 +100,9 @@ $lang['placeholder_subject']           = 'Subject';
 
 /*Table header Lang*/
 $lang['table_header_name']             = '姓名';
-$lang['table_header_cname']            = 'Character Name';
-$lang['table_header_gname']            = 'Guild Name';
-$lang['table_header_faction']          = 'Faction';
+$lang['table_header_cname']            = '角色名称';
+$lang['table_header_gname']            = '工会名称';
+$lang['table_header_faction']          = '阵营';
 $lang['table_header_total_kills']      = 'Lifetime Kills';
 $lang['table_header_total_honor']      = 'Rating';
 $lang['table_header_current_rank']     = 'Current Rank';
@@ -120,13 +120,13 @@ $lang['table_header_date']             = 'Date';
 $lang['table_header_author']           = 'Author';
 $lang['table_header_time']             = 'Time';
 $lang['table_header_icon']             = 'Icon';
-$lang['table_header_realm']            = 'Realm';
+$lang['table_header_realm']            = '服务器';
 $lang['table_header_zone']             = 'Zone';
-$lang['table_header_character']        = 'Character';
-$lang['table_header_price']            = 'Price';
-$lang['table_header_item_name']        = 'Item Name';
-$lang['table_header_items']            = 'Item(s)';
-$lang['table_header_quantity']         = 'Quantity';
+$lang['table_header_character']        = '角色';
+$lang['table_header_price']            = '价格';
+$lang['table_header_item_name']        = '物品名称';
+$lang['table_header_items']            = '商品';
+$lang['table_header_quantity']         = 'QUANTITY数量';
 
 /*Class Lang*/
 $lang['class_warrior']     = '战士';
